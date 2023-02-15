@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install --prefix client`
+
+then
+
 ### `npm start --prefix client`
 
 Runs the app in the development mode.\
@@ -21,4 +25,6 @@ then
 
 then
 
+### `rake db:migrate`
+### `rake db:seed`
 ### `rake server`
