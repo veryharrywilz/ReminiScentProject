@@ -2,7 +2,7 @@
 
 ### This is a project I made during my time at the Flatiron School. It allows users to browse, create, and "purchase" candles with a variety of scents!
 
-### I'm particularly proud of the "custom candle" screen. I worked hard on this feature, and it taught me how to dynamically create instances in the backend, and have my React code communicate with Ruby through the use of JSON objects. 
+### I'm particularly proud of the "custom candle" feature. I worked hard on this feature, and it taught me how to dynamically create instances in the backend, and have my React code communicate with Ruby through the use of JSON objects. We had created seeds for all the candles, and knew what kind of data was needed in order to make the candles, but being able to do it from the frontend was a new feat for me at the time, and it's not only an example of quality coding, but also showcases my ability to problem solve and apply my knowledge creatively and efficiently.
 
 ## To see this code, please check out: 
 
