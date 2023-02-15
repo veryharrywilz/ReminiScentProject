@@ -1,0 +1,593 @@
+/* Logo */
+.logo {
+  background-color: #f2f1f1;
+  text-align: left;
+  max-height: 125px;
+  padding-left: 70px;
+
+}
+
+.logo-image {
+  max-height: 135px;
+  min-width: 200px;
+}
+/* Candle container CSS */
+.allCandleDiv {
+  display: grid;
+}
+
+.bestsellers {
+  font-family: "Magda", "sans-serif";
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #534d4d;
+}
+
+.line-1 {
+  height: 1px;
+  background: black;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.new_candles_added {
+  font-family: "Magda", "sans-serif";
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #090909;
+}
+
+.allCandleDiv input {
+  height: 30px;
+  width: 300px;
+  font-family: "Bell Gothic Std";
+}
+
+.edit_color_block{
+  display: block;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+.line-2 {
+  height: 1px;
+  background: black;
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+a{
+  color: white
+}
+/* Candle Card */
+.candleHouse {
+margin-left: 10%;
+}
+
+.candleCard {
+  float: left;
+  height: 320px;
+  max-height: 370px;
+  min-width: 320px;
+  font-family: "Bell Gothic Std";
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* background-color: #cec2c250; */
+  margin: 1rem;
+  border-radius: 15px 70px 30px 5px;
+}
+
+#candleCardBG {
+  display: grid;
+  float: left;
+  font-family: "Bell Gothic Std";
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 1rem;
+  opacity: 70%;
+}
+
+.candleHeading {
+  font-family: "Bell Gothic Std";
+  padding-top: 10px;
+  text-align: center;
+}
+
+.candleCardImage {
+  width: 50%;
+  float: right;
+  outline-style: double;
+  outline-color: #cfc4c4;
+  outline-width: thin;
+  border-radius: 50px 50px 50px 50px
+}
+
+.cartImage {
+  width: 50%;
+  float: right;
+  outline-style: double;
+  outline-color: #cfc4c4;
+  outline-width: thin;
+  border-radius: 50px 50px 50px 50px
+}
+
+.candleCard h2 {
+  height: 37px;
+  font-family: "Bell Gothic Std";
+}
+
+.candleCard button {
+  border-radius: 10px;
+  border-color: white;
+  font-size: 12px;
+  font-weight: 700px;
+  padding: 10px 10px;
+  color: #f2ebeb;
+  background-color: #276e1daf;
+}
+.candleCard button:hover{
+  background-color: #133a0eaf;
+}
+
+@media (min-width: 1024px) {
+  .candleCard {
+    width: calc(25% - 2rem);
+  }
+}
+
+@media (min-width: 1200px) {
+  .candleCard {
+    width: calc(15% - 3rem);
+  }
+}
+
+.candleForm {
+  background-color: #f2f1f1;
+  height: 240px;
+  font-family: "Bell Gothic Std";
+  padding: 20px;
+  width: 209px;
+  margin: 8px;
+  ;
+}
+
+.candleForm select {
+  margin-right: 10px;
+  height: 30px;
+  font-family: "Bell Gothic Std";
+  margin-top: 10px;
+  font-size: 14.5px;
+}
+
+.candleForm button {
+  font-family: "Bell Gothic Std";
+  border-style: solid;
+  border-color: #838383;
+  margin-top: 10px;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+.candleForm button:hover {
+  background-color: #595959;
+  color: white;
+}
+
+.candleForm input {
+  margin-right: 10px;
+  height: 19px;
+}
+
+.displayCandle {
+  position: relative;
+  left: 350px;
+  bottom: 320px;
+
+}
+
+#candleFlicker {
+  height: 110px;
+  position: relative;
+  top: 88px;
+  left: 357px;
+  opacity: 60%;
+  z-index: 1;
+}
+
+#candleCreatorImage {
+  width: 600px;
+  position: absolute;
+}
+
+#candleCreatorLabel {
+  display: block;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  position: relative;
+  top: 150px;
+  left: 310px;
+  opacity: 40%;
+  border-radius: 20px;
+  box-shadow: 5px;
+}
+
+#cartCard {
+  display: inline-block;
+}
+
+.allCandleDiv {
+  position: absolute;
+}
+
+/* SEARCH BAR */
+.allCandleDiv input {
+  height: 40px;
+  width: 400px;
+  font-family: "Bell Gothic Std";
+  position: absolute;
+  left: 15px;
+}
+
+.create {
+  padding: 20px;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+/* Top banner and animation */
+
+.top-banner-text,
+.hidden {
+  font-family: "Magda", "sans-serif";
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #595959;
+  color: #ffffff;
+}
+
+.top-banner::before {
+  content: "Reminiscent NYC, now open.";
+  animation: animate infinite 7s;
+  padding-left: 10px;
+}
+
+@keyframes animate {
+
+  0% {
+    content: "Holiday season is here!";
+  }
+
+  45% {
+    content: "Gifts that everyone will love.";
+  }
+
+  75% {
+    content: "Can't find your favorite scent? Create a custom candle now.";
+  }
+}
+
+/* Welcoming User */
+
+.username {
+  font-family: "sans-serif";
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+/* Moving Banner */
+
+.banner {
+  height: 600px;
+  background-color: #ffffff;
+  overflow: hidden;
+
+}
+
+.banner-image {
+  height: 100%;
+  min-height: 900px;
+  width: calc(32% - 1rem);
+}
+
+.banner-image {
+  transition: opacity 0.5s ease-out;
+  animation: moveSlideshow 15s linear infinite;
+}
+
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Nav Bar and Buttons */
+
+.navbar {
+  line-height: 40px;
+  text-align: center;
+  background-color: #f2f1f1;
+  color: #ffffff;
+}
+
+.button {
+  border-radius: 20px;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 20px;
+  color: #595959;
+  background-color: #f2f1f1;
+}
+
+.button:hover {
+  background-color: #595959;
+  color: white;
+}
+
+/* COLORS */
+.colors {
+  display: grid;
+  max-width: 100px;
+}
+
+.colorPicker {
+  position: relative;
+  border-radius: 50px;
+  padding: 17px;
+  margin: 3px;
+  border-style: solid;
+}
+
+.colorPicker:hover {
+  border-style: unset;
+  padding: 20px;
+}
+
+.colorPicker:focus {
+  border-style: solid;
+  border-color: black;
+}
+
+#white {
+  background-color: white;
+}
+
+#wheat {
+  background-color: wheat;
+  color: wheat;
+}
+
+#goldenrod {
+  background-color: goldenrod;
+  color: goldenrod;
+}
+
+#lightsalmon {
+  background-color: lightsalmon;
+  color: lightsalmon;
+}
+
+#orangered {
+  background-color: orangered;
+  color: orangered;
+}
+
+#rosybrown {
+  background-color: rosybrown;
+  color: rosybrown;
+}
+
+#cornflowerblue {
+  background-color: cornflowerblue;
+  color: cornflowerblue;
+}
+
+#olive {
+  background-color: olive;
+  color: olive;
+}
+
+#seagreen {
+  background-color: seagreen;
+  color: seagreen;
+}
+
+#lightblue {
+  background-color: lightblue;
+  color: lightblue;
+}
+
+#plum {
+  background-color: plum;
+  color: plum;
+}
+
+#palevioletred {
+  background-color: palevioletred;
+  color: palevioletred;
+}
+
+
+/* Login CSS */
+.login_container {
+  display: grid;
+  grid-template-areas: 
+  "c" "a" "b" "c"
+  "c" "a" "b" "c"
+  ;
+  height: 400px; 
+  background-color: #f2f1f1;
+  grid-template-columns: 2fr 2fr;
+  background-image: url("https://img.freepik.com/premium-photo/eucalyptus-branches-beige-background-place-text-green-eucalyptus-leaves-isolated-neutral-color-floral-layout-horizontal-banner-mockup-eucalyptus-gunnii-silver-drop-flat-lay-top-view_497537-979.jpg?w=1800");
+
+
+}
+
+.create_account_form {
+  font-family: sans-serif;
+  grid-area: "b";
+  text-align: center;
+  font-size: large;
+  padding-top: 15px;
+  margin-top: 10%;
+  margin-right: 30%;
+  margin-left: 5%;
+  margin-bottom: 20%;
+  background-color: white;
+  outline-style: groove;
+  outline-color: #276e1daf;
+  outline-width: thin;
+}
+.create_account_form input {
+  font-family: sans-serif;
+  font-size: medium;
+  margin: 2px;
+}
+
+.login_form {
+  
+  font-family: sans-serif;
+  grid-area: "a";
+  font-size: large;
+  padding-top: 15px;
+  margin-left: 30%;
+  margin-right: 5%;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  background-color: white;
+  text-align: center;
+  outline-style: groove;
+  outline-color: #276e1daf;
+  outline-width: thin;
+}
+.login_form input {
+  font-family: sans-serif;
+  font-size: medium;
+  margin: 2px;
+}
+
+.login_button {
+  border-radius: 20px;
+  border: none;
+  font-size: 12px;
+  font-weight: 700px;
+  padding: 5px 30px;
+  margin: 4px;
+  color: #f2f1f1;
+  background-color: #276e1daf
+}
+
+.login_button:hover {
+  background-color: #133a0eaf;
+}
+
+/* Candle container CSS */
+.bestsellers {
+  font-family: "Magda", "sans-serif";
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #534d4d;
+}
+
+.line-1 {
+  height: 1px;
+  background: black;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.new_candles_added {
+  font-family: "Magda", "sans-serif";
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #090909;
+}
+
+.allCandleDiv input {
+  height: 30px;
+  width: 300px;
+  font-family: "Bell Gothic Std";
+}
+
+.homePageFlickers {
+  border-style: none;
+  position:relative; left: 225px; top: 24px;
+  z-index: +1;
+  height: 30px;
+}
+
+.alert{
+  width:20%;
+  margin: 60px auto;
+  padding:30px;
+  position:relative;
+  border-radius:5px;
+  box-shadow:0 0 15px 5px #ccc;
+  text-align: center; 
+}
+
+.candle_editor_page {
+  display: grid;
+}
+
+.edit_image{
+  /* height: 300px; */
+  position: absolute;
+  left: 40%;
+  max-width: 20%;
+  max-height: 50%;
+  margin-top: 9%;
+
+}
+
+.edit_color_block{
+  display: block;
+  position: absolute;
+  opacity: 70%;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  margin-top: 20%;
+  left: 47%;
+  border-radius: 15px;
+  
+}
+
+.edit_candle{
+  width: 20%;
+  margin-left: 3%;
+}
+
+.edit_candle h2 {
+  text-align: left;
+  margin-left: 2%;
+}
+
+/* .candle_editor_page{
+  align-content: center;
+} */
+
