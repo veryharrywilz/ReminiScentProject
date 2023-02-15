@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# HELLO RECRUITERS
+
+### This is a project I made during my time at the Flatiron School. It allows users to browse, create, and "purchase" candles with a variety of scents!
+
+### I'm particularly proud of the "custom candle" screen. I worked hard on this feature, and it taught me how to dynamically create instances in the backend, and have my React code communicate with Ruby through the use of JSON objects. 
+
+## To see this code, please check out: 
+
+### `client/src/components/CandleCreator.js`
+#
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
